@@ -1,4 +1,4 @@
-#include "Points.h"
+#include "points.h"
 #include <math.h>
 #include <iostream>
 
@@ -32,3 +32,4 @@ void Print(const Point3D * p_Points, int size)
 	for (int i = 0; i < size; i++)
 		std::cout << "(" << p_Points[i].m_x << ", " << p_Points[i].m_y << ", " << p_Points[i].m_z 
 		<< ") \t = " << Distance(p_Points[i]) << std::endl;
+}
