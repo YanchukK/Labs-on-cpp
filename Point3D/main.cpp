@@ -1,4 +1,4 @@
-#include "Points.h"
+#include "points.h"
 #include <iostream>
 
 int main()
